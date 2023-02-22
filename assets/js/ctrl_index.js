@@ -105,7 +105,7 @@ function ctrl_slides() {
       $("#sini_Next").hide();
     }
   }
-  if (numSlides === 9 || numSlides === 10 || numSlides === 11 || numSlides === 12 || numSlides === 13 || numSlides === 14 ||
+  if (numSlides === 1 || numSlides === 2 ||numSlides === 3 || numSlides === 4 ||numSlides === 5 || numSlides === 6 ||numSlides === 7 || numSlides === 9 || numSlides === 10 || numSlides === 11 || numSlides === 12 || numSlides === 13 || numSlides === 14 ||
     numSlides === 15  || numSlides === 16 || numSlides === 17 || numSlides === 18 || numSlides === 19 || numSlides === 20
   ) {
     playLocution(numSlides)
@@ -377,42 +377,63 @@ function resetLocutionSabias() {
   })
 }
 function playLocution(currentSlide) {
-  //console.log("entra playLocution");
+  console.log("entra playLocution"+ currentSlide);
   resetLocution();
-  if (currentSlide == 10) {
+  if (currentSlide == 1) {
+    $("#aud_intro_1")[0].play();
+  }
+  if (currentSlide == 2) {
+    $("#aud_intro_2")[0].play();
+  }
+  if (currentSlide == 3) {
+    $("#aud_intro_3")[0].play();
+  }
+  if (currentSlide == 4) {
+    $("#aud_intro_4")[0].play();
+  }
+  if (currentSlide == 5) {
+    $("#aud_intro_5")[0].play();
+  }
+  if (currentSlide == 6) {
+    $("#aud_intro_6")[0].play();
+  }
+  if (currentSlide == 7) {
+    $("#aud_intro_7")[0].play();
+  }
+  if (currentSlide == 9) {
     $("#aud1")[0].play();
   }
-  if (currentSlide == 11) {
+  if (currentSlide == 10) {
     $("#aud2")[0].play();
   }
-  if (currentSlide == 12) {
+  if (currentSlide == 11) {
     $("#aud3")[0].play();
   }
-  if (currentSlide == 13) {
+  if (currentSlide == 12) {
     $("#aud4")[0].play();
   }
-  if (currentSlide == 14) {
+  if (currentSlide == 13) {
     $("#aud5")[0].play();
   }
-  if (currentSlide == 15) {
+  if (currentSlide == 14) {
     $("#aud6")[0].play();
   }
   // if (currentSlide == 16) {
   //   $("#aud7")[0].play();
   // }
-  if (currentSlide == 17) {
+  if (currentSlide == 16) {
     $("#aud7")[0].play();
   }
-  if (currentSlide == 18) {
+  if (currentSlide == 17) {
     $("#aud8")[0].play();
   }
-  if (currentSlide == 19) {
+  if (currentSlide == 18) {
     $("#aud9")[0].play();
   }
-  if (currentSlide == 20) {
+  if (currentSlide == 19) {
     $("#aud10")[0].play();
   }
-  if (currentSlide == 21) {
+  if (currentSlide == 20) {
     $("#aud11")[0].play();
   }
   
