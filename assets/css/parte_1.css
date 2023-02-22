@@ -1,0 +1,569 @@
+#btn_start_sini1 {
+  right: 5%;
+  top: 80%;
+  width: 21%;
+  display: none;
+}
+
+.abs {
+  position: absolute;
+}
+
+.title-bienvenide {
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50%;
+}
+.alcaldesa {
+  right: 30%;
+  top: 24%;
+  width: 19%;
+}
+.mujer-vectorial {
+  left: 25%;
+  top: 25%;
+  width: 23%;
+}
+.edificio_slide_2 {
+  right: 46.5%;
+  top: 20%;
+  width: 8%;
+}
+
+.alcaldesa_slide_2 {
+  left: 10%;
+  top: 25%;
+  width: 23%;
+}
+.btn_slide9_1 {
+  transition: all 0.5s 0s ease;
+}
+.btn_slide9_1 :hover {
+  transform: scale(1.1);
+}
+.alcaldesa_slide_3 {
+  left: 10%;
+  top: 25%;
+  width: 23%;
+}
+.decidir_slide_3 {
+  left: 27%;
+  bottom: 20%;
+  width: 40%;
+}
+.btn_slide9 {
+  right: 9%;
+  top: 35%;
+  width: 50%;
+  cursor: pointer;
+}
+/* .title_slide_3 {
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 50%;
+} */
+.boton_slide_3 {
+  right: 5%;
+  bottom: 10%;
+  width: 23%;
+  cursor: pointer;
+}
+.kit_slide_4 {
+  width: 73%;
+  top: 5%;
+  left: 15%;
+  margin: auto;
+}
+.globo_slide_4 {
+  bottom: 6%;
+  left: 25%;
+  width: 42%;
+}
+.alcaldesa_slide_4 {
+  left: 10%;
+  bottom: 0%;
+  width: 20%;
+}
+.title_oficina_slide_5 {
+  width: 45%;
+  top: 5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.inteligente_slide_5 {
+  width: 17%;
+  right: 12%;
+  bottom: 2%;
+}
+.experta_slide_5 {
+  width: 40%;
+  top: 17%;
+  left: 10%;
+}
+.adelante_slide_6 {
+  width: 15%;
+  bottom: 15%;
+  left: 32%;
+}
+.basico_slide_6 {
+  width: 10%;
+  top: 25%;
+  left: 35%;
+}
+.bombera_slide_6 {
+  width: 18%;
+  bottom: 3%;
+  right: 8%;
+}
+.fuego_slide_6 {
+  width: 20%;
+  top: 20%;
+  left: 30%;
+  margin: auto;
+}
+.title_slide_6 {
+  width: 65%;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.bombera_slide_7 {
+  width: 16%;
+  left: 10%;
+  bottom: 3%;
+}
+.title_slide_7 {
+  width: 60%;
+  top: 12%;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.video_slide_7 {
+  width: 40%;
+  top: 0;
+  margin: auto;
+  right: 10%;
+  bottom: 0;
+  cursor: pointer;
+}
+.bombera_slide_8 {
+  width: 18%;
+  bottom: 3%;
+  left: 10%;
+}
+.tilte_slide_8 {
+  width: 50%;
+  top: 13%;
+  left: 23%;
+}
+/*tooltip Box*/
+.con-tooltip {
+  position: absolute;
+  background: transparent;
+  top: 43.2%;
+  left: 45.9%;
+  width: 8.5%;
+  height: 5vh;
+  border-radius: 9px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+/*tooltip */
+.tooltip {
+  visibility: hidden;
+  z-index: 1;
+  opacity: 0.4;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  bottom: 0;
+  transform: translateY(1px);
+  transition: all 0.3s ease-in-out;
+}
+
+.con-tooltip:hover .tooltip {
+  visibility: visible;
+  transform: translateY(-10px);
+  opacity: 1;
+  transition: 0.3s linear;
+  animation: odsoky 1s ease-in-out infinite alternate;
+}
+
+.bottom:hover {
+  transform: translateY(1px);
+}
+
+.tooltip img {
+  width: 250%;
+}
+.bottom .tooltip {
+  top: 200%;
+}
+.bombera_slide_9 {
+  bottom: 3%;
+  left: 10%;
+  width: 18%;
+}
+.globo_slide_9 {
+  width: 44%;
+  left: 25%;
+  top: 20%;
+}
+.bombera_slide_10 {
+  bottom: 3%;
+  left: 10%;
+  width: 18%;
+}
+.globo_slide_10 {
+  width: 32%;
+  left: 23%;
+  top: 24%;
+}
+
+#cls_expertos_1,
+#cls_expertos_2,
+#cls_expertos_3,
+#cls_expertos_4,
+#cls_expertos_5,
+#cls_expertos_6 {
+  top: 0;
+  right: 0;
+  width: 5%;
+}
+#p1_slide_4a {
+  left: 63%;
+  top: 27%;
+  width: 26%;
+}
+#p1_slide_5a {
+  left: 60%;
+  top: 50%;
+  width: 14%;
+}
+
+#cls_pantalla {
+  top: 2%;
+  right: 3.5%;
+  width: 5%;
+  display: none;
+}
+#prev_pantalla_2,
+#prev_pantalla_8 {
+  width: 3%;
+  left: 3%;
+  display: none;
+}
+#next_pantalla_2,
+#next_pantalla_8 {
+  width: 3%;
+  right: 3%;
+}
+.pantalla_interna {
+  display: none;
+}
+.return_sala {
+  bottom: 5%;
+  right: 4%;
+  width: 5%;
+}
+.bombera_slide_18 {
+  bottom: 3%;
+  right: 10%;
+  width: 18%;
+}
+.texto_slide_18 {
+  width: 50%;
+  left: 20%;
+  top: 5%;
+}
+.texto_1_slide19 {
+  width: 12%;
+  left: 27%;
+  top: 26%;
+}
+.texto_3_slide19 {
+  width: 16.5%;
+  right: 20%;
+  top: 20%;
+}
+.texto_4_slide19 {
+  width: 10.35%;
+  left: 27%;
+  bottom: 20%;
+}
+.texto_5_slide19 {
+  width: 10%;
+  left: 46%;
+  bottom: 23.5%;
+}
+.texto_6_slide19 {
+  width: 18.3%;
+  right: 19%;
+  bottom: 17.5%;
+}
+.texto_7_slide19 {
+  width: 24%;
+  left: 0;
+  top: 20%;
+}
+.texto_8_slide19 {
+  width: 7%;
+  top: 4%;
+  left: 18%;
+}
+.texto_9_slide19 {
+  width: 55%;
+  top: 7%;
+  left: 28%;
+}
+.texto_10_slide19 {
+  width: 24%;
+  left: 0;
+  top: 83%;
+}
+
+.texto_11_slide19 {
+  width: 13%;
+  left: 45%;
+  top: 26%;
+}
+#btn_start_slide15 {
+  width: 7.2%;
+  top: 33%;
+  left: 53.6%;
+}
+#btn_start_slide16 {
+  width: 13%;
+  top: 30%;
+  left: 28%;
+}
+.fondo_casa {
+  width: 67%;
+  left: 10%;
+  top: 5%;
+}
+#btn_expertos_2 {
+  width: 12%;
+  top: 4%;
+  left: 23%;
+  cursor: pointer;
+}
+#btn_expertos_3 {
+  width: 8%;
+  top: 54%;
+  left: 34.2%;
+  cursor: pointer;
+}
+#btn_expertos_4 {
+  width: 3.5%;
+  left: 47.5%;
+  top: 43%;
+  cursor: pointer;
+}
+#btn_expertos_1 {
+  width: 10%;
+  left: 35%;
+  bottom: 15%;
+  cursor: pointer;
+}
+.btn_regresar_menu,
+.btn_contunue_fin {
+  width: 15%;
+  right: 5%;
+  bottom: 6.5%;
+  cursor: pointer;
+}
+#btn_muleta {
+  width: 8%;
+  bottom: 11%;
+  right: 17%;
+  cursor: pointer;
+}
+
+#btn_viejitos {
+  width: 15%;
+  left: 20%;
+  bottom: 11%;
+  cursor: pointer;
+}
+.tol {
+  position: relative;
+  background-color: #c93f3f;
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  top: -26%;
+  left: 17%;
+}
+
+/* Mostrando los tooltips*/
+#btn_muleta:hover,
+.tol:hover .tooltipp {
+  display: block;
+}
+
+/* Tooltip CSS 2.1 */
+.tooltipp:before {
+  bottom: -6px;
+  content: "";
+  height: 0;
+  left: 20%;
+  margin-left: -6px;
+  position: absolute;
+  width: 0;
+}
+
+.tooltipp {
+  color: #ffffff;
+  display: none;
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  right: 7%;
+  bottom: 250px;
+  /* margin: auto; */
+  z-index: 4;
+  width: 100%;
+  height: 100px;
+}
+.img-tol {
+  width: 100%;
+  height: auto;
+}
+
+.tol_2 {
+  position: relative;
+  background-color: #c93f3f;
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  bottom: 15%;
+  left: 5%;
+}
+
+/* Mostrando los tooltips*/
+#btn_viejitos:hover,
+.tol_2:hover .tooltipp_2 {
+  display: block;
+}
+
+/* Tooltip CSS 2.1 */
+.tooltipp_2:before {
+  bottom: -6px;
+  content: "";
+  height: 0;
+  left: 20%;
+  margin-left: -6px;
+  position: absolute;
+  width: 0;
+}
+
+.tooltipp_2 {
+  color: #ffffff;
+  display: none;
+  position: absolute;
+  /* top: 0; */
+  left: 5%;
+  bottom: 300px;
+  /* margin: auto; */
+  z-index: 4;
+  width: 100%;
+  height: 100px;
+}
+.mujer_end {
+  bottom: 0;
+  right: 5%;
+  width: 25%;
+}
+.caso_end {
+  width: 10%;
+  bottom: 10%;
+  left: 37%;
+  cursor: pointer;
+}
+.sinie_end {
+  width: 55%;
+  top: 10%;
+  left: 15%;
+}
+.inginia_end {
+  width: 14%;
+  top: 28%;
+  left: 36%;
+}
+.click_end {
+  width: 35%;
+  left: 25%;
+  bottom: 30%;
+}
+.mujer_s19 {
+  bottom: 0;
+  right: 1%;
+  width: 25%;
+}
+.felicidades_s19 {
+  width: 20%;
+  top: 7%;
+  left: 40%;
+}
+.obtuv_s19{
+  width: 36%;
+  left: 32%;
+  top: 19%;
+}
+.insignia_19{
+  width: 14%;
+  left: 43%;
+  top: 27%;
+}
+.demo_s19{
+  width: 40%;
+  left: 30%;
+  top: 63%;
+}
+
+#btn_Finish{
+  width: 15%;
+  left: 42%;
+  bottom: 2%;
+}
+
+#slide14_1 {
+  width: 59%;
+  left: 17%;
+  top: 7%;
+}
+#slide14_2 {
+  width: 21%;
+  left: 13%;
+  bottom: -10%;
+}
+
+.circ_slide1_2{    width: 2.7%;
+  height: 5%;
+  top: 65%;}
+#circ_slide1_2_1{left: 35%;}
+#circ_slide1_2_2{left: 40%;}
+#circ_slide1_2_3{left: 45%;}
+#circ_slide1_2_4{left: 50%;}
+#circ_slide1_2_5{left: 55%;}
+#circ_slide1_2_6{left: 60%;}
+#circ_slide1_2_7{left: 65%;}
+
+
+.btn_contInc{top:38%;width: 16%;}
+#btn_contInc_1{left: 43.4%;}
+#btn_contInc_2{left: 55.7%;pointer-events: none;}
+#btn_contInc_3{left: 68.2%;pointer-events: none;}
+#btn_contInc_4{left: 81%;pointer-events: none;}
+
+.gif_mochila{position: absolute;left: 6%;width: 38%;bottom: 0%;}
+.airplane{position: absolute;width: 90%;top: 0%;left: 5%;z-index: 9;}

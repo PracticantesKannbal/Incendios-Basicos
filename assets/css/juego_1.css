@@ -1,0 +1,392 @@
+#logo_info_juego{
+  top: 2%;
+  left: 1%;
+  width: 5%;
+}
+.modal__juego-container {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  /* display: none; */
+  position: absolute;
+  z-index: 6;
+  background: #0000009e;
+}
+.hide {
+  display: none;
+}
+.back {
+  height: 100vh;
+  width: 100%;
+}
+.elem_p {
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.elem_p:hover {
+  transform: scale(1.1);
+}
+
+.s1_e1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  width: 67%;
+  height: auto;
+}
+.s1_e2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 27%;
+  margin: auto;
+  width: 15%;
+  height: auto;
+  cursor: pointer;
+}
+.juego__mujer {
+  position: absolute;
+  width: 23%;
+  height: auto;
+  right: 6%;
+  bottom: 0;
+}
+.juego__intrucciones {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 20%;
+  left: 16%;
+}
+.s1_e3 {
+  position: absolute;
+  width: 2%;
+  height: auto;
+  top: 25%;
+  z-index: 1;
+  right: 41%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.s1_e3:hover {
+  transform: scale(1.2);
+}
+.crono {
+  position: absolute;
+  width: 13%;
+  height: auto;
+  right: 3%;
+  top: 5%;
+}
+.info {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  left: 3%;
+  top: 5%;
+  cursor: pointer;
+}
+.s2_p1_e1 {
+  position: absolute;
+  width: 17%;
+  height: auto;
+  left: 1%;
+  bottom: 0%;
+}
+.s2_p1_e2 {
+  position: absolute;
+  width: 36%;
+  height: auto;
+  left: 18%;
+  top: 5%;
+  transition: 0.3s ease;
+}
+.s2_p1_op1 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 20%;
+}
+.s2_p1_op2 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 42%;
+}
+.s2_p1_op3 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 63%;
+}
+
+.s2_p2_e1 {
+  position: absolute;
+  width: 17%;
+  height: auto;
+  left: 1%;
+  bottom: 0;
+}
+.s2_p2_e2 {
+  position: absolute;
+  width: 36%;
+  height: auto;
+  left: 18%;
+  top: 5%;
+}
+.s2_p2_op1 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 20%;
+}
+.s2_p2_op2 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 42%;
+}
+.s2_p2_op3 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 63%;
+}
+
+.s2_p3_e1 {
+  position: absolute;
+  width: 17%;
+  height: auto;
+  left: 1%;
+  bottom: 0;
+}
+.s2_p3_e2 {
+  position: absolute;
+  width: 36%;
+  height: auto;
+  left: 18%;
+  top: 5%;
+}
+.s2_p3_op1 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 20%;
+}
+.s2_p3_op2 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 42%;
+}
+.s2_p3_op3 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 63%;
+}
+
+.s2_p4_e1 {
+  position: absolute;
+  width: 17%;
+  height: auto;
+  left: 1%;
+  bottom: 0;
+}
+.s2_p4_e2 {
+  position: absolute;
+  width: 36%;
+  height: auto;
+  left: 18%;
+  top: 5%;
+}
+.s2_p4_op1 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 20%;
+}
+.s2_p4_op2 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 42%;
+}
+.s2_p4_op3 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 63%;
+}
+
+.s2_p5_e1 {
+  position: absolute;
+  width: 17%;
+  height: auto;
+  left: 1%;
+  bottom: 0;
+}
+.s2_p5_e2 {
+  position: absolute;
+  width: 36%;
+  height: auto;
+  left: 18%;
+  top: 5%;
+}
+.s2_p5_op1 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 20%;
+}
+.s2_p5_op2 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 42%;
+}
+.s2_p5_op3 {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 60%;
+  top: 63%;
+}
+
+.mod_bien_msg {
+  position: absolute;
+  width: 22%;
+  height: auto;
+  top: 5rem;
+  left: 27%;
+}
+.mod_bien_glo {
+  position: absolute;
+  width: 22%;
+  height: auto;
+  left: 4%;
+  top: 10rem;
+}
+.mod_bien_icon {
+  position: absolute;
+  width: 7%;
+  height: auto;
+  top: 5%;
+  left: 10.5%;
+}
+
+.mod_mal_p1_msg {
+  position: absolute;
+  width: 28%;
+  height: auto;
+  top: 1.5rem;
+  left: 27%;
+}
+.mod_mal_p1_glo {
+  position: absolute;
+  width: 26%;
+  height: auto;
+  left: 5%;
+  top: 10rem;
+}
+
+.mod_mal_p2_msg {
+  position: absolute;
+  width: 28%;
+  height: auto;
+  top: 1.5rem;
+  left: 27%;
+}
+.mod_mal_p3_msg {
+  position: absolute;
+  width: 28%;
+  height: auto;
+  top: 1.5rem;
+  left: 27%;
+}
+.mod_mal_p4_msg {
+  position: absolute;
+  width: 28%;
+  height: auto;
+  top: 1.5rem;
+  left: 27%;
+}
+.mod_mal_p5_msg {
+  position: absolute;
+  width: 28%;
+  height: auto;
+  top: 1.5rem;
+  left: 27%;
+}
+
+.mod_txt {
+  position: absolute;
+  width: 40%;
+  left: 20%;
+  top: 10%;
+}
+.mod_glo {
+  position: absolute;
+  width: 17%;
+  left: 69%;
+  top: 27%;
+}
+.mod_glo_try {
+  position: absolute;
+  width: 32%;
+  left: 7%;
+  top: 25%;
+}
+.mod_glo_clo {
+  position: absolute;
+  width: 32%;
+  left: 7%;
+  top: 25%;
+}
+.mod_btn_fin {
+  position: absolute;
+  width: 10%;
+  left: 34%;
+  top: 36%;
+  cursor: pointer;
+}
+.mod_btn_try {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  top: 49%;
+  cursor: pointer;
+}
+.mod_btn_clo {
+  position: absolute;
+  width: 20%;
+  left: 40%;
+  top: 49%;
+  cursor: pointer;
+}
+
+.counter {
+  position: absolute;
+  top: 3.2vh;
+  right: 4%;
+  font-size: 2.3vw;
+  color: white;
+}

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>AXA - Incendios</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/libs/w3.min.css">
+  <link rel="stylesheet" href="assets/css/libs/animate.css">
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/parte_1.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/parte_2.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="assets/css/infografia.css">
+</head>
+
+<body>
+  <div id="loading_screen">
+    <img id="load_img" src="assets/img/icons/puff.svg" alt />
+    <div id="load_text">
+      <p>Cargando ...</p>
+    </div>
+  </div>
+
+  <div id="mySidebar" class="sidebar">
+    <button id="close_sideBar">x</button>
+    <p id="txt_slidePreg">Menú</p>
+    <div id="linea_menu" class="elemento_slide"></div>
+    <div id="btn_nav_1" class="elemento_slide btn_navegacion w3-circle w3-border-white" style="top:13%"></div>
+    <div id="btn_nav_2" class="elemento_slide btn_navegacion w3-circle w3-border-white" style="top:24%"></div>
+    <div id="btn_nav_3" class="elemento_slide btn_navegacion w3-circle w3-border-white" style="top:35%"></div>
+    <div id="btn_nav_4" class="elemento_slide btn_navegacion w3-circle w3-border-white" style="top:46%"></div>
+    <div id="btn_nav_5" class="elemento_slide btn_navegacion w3-circle w3-border-white" style="top:57%"></div>
+    <p class="elemento_slide btn_navegacion w3-opacity" id="txt_pregunta_1"
+        style="left: 30%;font-size: 1.1vw;color: #FFF;width: 60%;top: 10%;background: none; border: none;">
+        Incendios básico: conceptos generales</p>
+    <p class="elemento_slide btn_navegacion w3-opacity" id="txt_pregunta_2"
+        style="left: 30%;font-size: 1.1vw;color: #FFF;width: 60%;top: 23%;background: none; border: none;">
+        Clasificación de bienes</p>
+    <p class="elemento_slide btn_navegacion w3-opacity" id="txt_pregunta_3"
+        style="left: 30%;font-size: 1.1vw;color: #FFF;width: 60%;top: 33.5%;background: none; border: none;">
+        Reto práctico</p>
+    <p class="elemento_slide btn_navegacion w3-opacity" id="txt_pregunta_4"
+        style="left: 30%;font-size: 1.1vw;color: #FFF;width: 60%;top: 43%;background: none; border: none;">
+        Formas de protección en AXA</p>
+    <p class="elemento_slide btn_navegacion w3-opacity" id="txt_pregunta_5"
+        style="left: 30%;font-size: 1.1vw;color: #FFF;width: 60%;top: 56%;background: none; border: none;">
+        Caso práctico</p>
+</div>
+<img id="btn_openSide" src="assets/img/menu.png"  alt="">
+<img id="btn_VolumenIndex" class="hide btn_VolumenIndex" src="assets/img/on.png">
+<img class="btn_AudLoc hide" id="btn_AudLoc" src="assets/img/on_l.png">
+
+<div id="gifavion" class="hide" style="position:absolute;width:100vw;height:100vh;top:0%;left:0%;background-color: #f7c979;z-index: 9;">
+  <img src="assets/img/airplane.gif" class="airplane" alt="">
+</div>
+
+  <div id="slide_sini_1" class="slide_sini">
+    <img class="title-bienvenide abs animated zoomIn" src="assets/img/parte_1/intro/bienvenidos.png" alt="">
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/intro/fondo.png" alt style="width:100%;height: 100%; overflow: hidden;" />
+    <img class="mujer-vectorial abs animated fadeInLeft delay-1s"
+      src="assets/img/parte_1/intro/objeto-mujer-vectorial.png" alt="">
+    <img class="alcaldesa abs animated fadeInRight delay-2s" src="assets/img/parte_1/intro/alcaldesa.png">
+    <img id="btn_start_sini1" src="assets/img/parte_1/btn_start.png" class="elem_click animated infinite pulse" alt />
+  </div>
+
+  <div id="slide_sini_2" class="slide_sini">
+    <img src="assets/img/parte_1/SLIDE-2/SLIDE_2.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/SLIDE-2/texto.png" class="elem_info" alt style="top:4%;left:10%;width:80%">
+    <img src="assets/img/parte_1/SLIDE-2/Alcandesa.png" class="abs animated fadeInLeft alcaldesa_slide_2" alt="">
+    <img src="assets/img/parte_1/SLIDE-2/edificio.png" class="abs animated zoomIn edificio_slide_2 delay-1s" alt="">
+  </div>
+
+
+  <div id="slide_sini_3" class="slide_sini" style="background-color: #f0d289;">
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide4/01.png" alt style="width: 95%;height: 103%;" />
+    <img src="assets/img/parte_1/slide4/g1.png" alt class="elem_info g1" />
+    <img src="assets/img/parte_1/slide4/g2.png" alt class="elem_info g2" />
+  </div>
+  <div id="slide_sini_4" class="slide_sini">
+    <img src="assets/img/parte_1/slide4/02.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+  </div>
+  <div id="slide_sini_5" class="slide_sini">
+    <img src="assets/img/parte_1/slide4/03.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+  </div>
+  <div id="slide_sini_6" class="slide_sini">
+    <img src="assets/img/parte_1/slide4/04.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+  </div>
+  <div id="slide_sini_7" class="slide_sini">
+    <img src="assets/img/parte_1/slide5/01.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+  </div>
+  <!-- <div id="slide_sini_8" class="slide_sini">
+    <img src="assets/img/parte_1/slide5/02.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+  </div> -->
+  <div id="slide_sini_8" class="slide_sini">
+    <img src="assets/img/parte_1/slide5/03.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img id="btn_contInc_1" src="assets/img/parte_1/slide5/btn_basico.png"
+      class="elem_click myglow_img_blue btn_contInc" alt>
+    <img id="btn_contInc_2" src="assets/img/parte_1/slide5/btn_inter.png"
+      class="elem_click btn_contInc w3-greyscale-max" alt>
+    <img id="btn_contInc_3" src="assets/img/parte_1/slide5/btn_av.png" class="elem_click btn_contInc w3-greyscale-max"
+      alt>
+    <img id="btn_contInc_4" src="assets/img/parte_1/slide5/btn_expert.png" class="elem_click btn_contInc w3-greyscale-max"
+      alt>
+    <p id="instr_4Mods" class="elem_info">Haz clic para ingresar al módulo</p>
+  </div>
+
+  <div id="slide_sini_9" class="slide_sini">
+    <img src="assets/img/parte_1/slide10/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide10/title_oficina.png" class="abs animated zoomIn title_oficina_slide_5" alt />
+    <img src="assets/img/parte_1/slide10/inteligente_vectorial.png" class="abs animated fadeInRight delay-3s inteligente_slide_5" alt="">
+    <img src="assets/img/parte_1/slide10/title_experta.png" class="abs animated fadeInLeft experta_slide_5 delay-2s" alt="">
+    <img src="assets/img/parte_1/slide10/Kit-Basico.gif" class="abs animated fadeInLeft gif_mochila delay-3s" alt="">
+  </div>
+  <div id="slide_sini_10" class="slide_sini">
+    <img src="assets/img/parte_1/slide11/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide11/adelante.png" class="abs animated zoomIn adelante_slide_6 delay-3s" alt="">
+    <img src="assets/img/parte_1/slide11/basico.png" class="abs animated zoomIn basico_slide_6 delay-3s" alt="">
+    <img src="assets/img/parte_1/slide11/bombera.png" class="abs animated fadeInRight bombera_slide_6 delay-1s" alt="">
+    <img src="assets/img/parte_1/slide11/fuegos.png" class="abs animated zoomIn fuego_slide_6 delay-2s" alt="">
+    <img src="assets/img/parte_1/slide11/title.png" class="abs animated zoomIn title_slide_6 " alt="">
+  </div>
+  <div id="slide_sini_11" class="slide_sini">
+    <img src="assets/img/parte_1/slide12/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide12/bombera.png" class="abs animated zoomIn bombera_slide_7" alt="">
+    <img src="assets/img/parte_1/slide12/title.png" class="abs animated zoomIn title_slide_7" alt="">
+    <img src="assets/img/parte_1/slide12/Video.png" class="abs animated pulse infinite video_slide_7" alt="">
+  </div>
+  <div id="slide_sini_12" class="slide_sini">
+    <img src="assets/img/parte_1/slide13/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide13/bombera.png" class="abs animated bombera_slide_8" alt />
+    <img src="assets/img/parte_1/slide13/texto.png" class="abs animated tilte_slide_8" alt />
+    <div class="con-tooltip bottom">
+      <p> </p>
+      <div class="tooltip ">
+        <img src="assets/img/parte_1/slide13/hover.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div id="slide_sini_13" class="slide_sini">
+    <img src="assets/img/parte_1/slide15/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide15/bombera.png" class="abs animated bombera_slide_9" alt />
+    <img src="assets/img/parte_1/slide15/globo-axa.png" class="abs animated globo_slide_9" alt />
+  </div>
+  <div id="slide_sini_14" class="slide_sini">
+    <img src="assets/img/parte_1/slide15/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide16/bombera.png" class="abs animated bombera_slide_10" alt />
+    <img src="assets/img/parte_1/slide16/globo_axa.png" class="abs animated globo_slide_10" alt />
+  </div>
+  <div id="slide_sini_15" class="slide_sini ">
+    <!-- Infografia Horizontal-->
+    <div id="infografia_horizontal" class="infografia_horizontal">
+      <div class="capa_1 scroll">
+        <img src="assets/img/parte_1/slide17/fondo_principal.png">
+        <img style="position: absolute;bottom: 43%;width: 1%;left: 6%;" src="assets/img/parte_1/slide17/img_nube1.png">
+        <img style="position: absolute;bottom: 57%;width: 1%;left: 15%;" src="assets/img/parte_1/slide17/img_nube1.png">
+        <img style="position: absolute;bottom: 50%;width: 1%;left: 26%;" src="assets/img/parte_1/slide17/img_nube1.png">
+        <img style="position: absolute;bottom: 50%;width: 1%;left: 48%;" src="assets/img/parte_1/slide17/img_nube1.png">
+        <img style="position: absolute;bottom: 50%;width: 1%;left: 66%;" src="assets/img/parte_1/slide17/img_nube1.png">
+        <img style="position: absolute;bottom: 40%;width: 1%;left: 87%;" src="assets/img/parte_1/slide17/img_nube1.png">
+      </div>
+      <!-- Capa 2 -->
+      <div class="capa_2 scroll">
+        <img src="assets/img/parte_1/slide17/layer_pasto.png" style=" width: 206%;bottom: 7%; position: absolute;" />
+      </div>
+      <!-- Capa 3 -->
+      <div class="capa_3 scroll">
+        <div id="bus" style="position: absolute;bottom: 9.1%;width: 13%;left: 13000px;">
+          <img src="assets/img/parte_1/slide17/img_turibus.png" style="width: 100%;top:0%;left: 0%;position: relative">
+          <img src="assets/img/parte_1/slide17/img_turibusLlanta.png" class="w3-spin"
+            style="width: 17%;top: 61%;left: 13%;position: absolute">
+          <img src="assets/img/parte_1/slide17/img_turibusLlanta.png" class="w3-spin"
+            style="width: 17%;top: 61%;left: 65%;position: absolute">
+        </div>
+
+      </div>
+      <!-- Capa 4 -->
+      <div class="capa_4 scroll">
+
+        <img id="logo_info" class="elem_info" src="assets/img/axa_logo.png">
+        <img id="layer_pasto" src="assets/img/parte_1/slide17/layer_pasto2.png" />
+        <img id="lbl_Bienvenida" class="etiqueta" src="assets/img/parte_1/slide17/lbl_Bienvenida.png">
+        <img id="img_scroll" class="icono-Info" src="assets/img/parte_1/slide17/img_scroll.png">
+        <img id="lbl_Indicaciones" class="etiqueta" src="assets/img/parte_1/slide17/lbl_Indicaciones.png">
+
+        <img id="lbl_MuseoT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_MuseoT.png">
+        <img id="img_museo" class="edificio" src="assets/img/parte_1/slide17/img_museo.png">
+
+        <img id="img_museo_2" class="edificio" src="assets/img/parte_1/slide17/img_museo_2.png">
+        <img id="lbl_CentroT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_CentroT.png">
+
+        <img id="lbl_TrajineraT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_TrajineraT.png">
+        <img id="lbl_TrajineraIN" class="etiqueta" src="assets/img/parte_1/slide17/lbl_TrajineraIN.png">
+
+        <img id="lbl_UnivT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_UnivT.png">
+        <img id="lbl_UnivIN" class="etiqueta" src="assets/img/parte_1/slide17/lbl_UnivIN.png">
+
+        <img id="lbl_ChefT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_ChefT.png">
+        <img id="lbl_ChefIN" class="etiqueta" src="assets/img/parte_1/slide17/lbl_ChefIN.png">
+
+        <img id="lbl_DeportesT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_DeportesT.png">
+        <img id="lbl_DeportRE" class="etiqueta" src="assets/img/parte_1/slide17/lbl_DeportRE.png">
+
+        <img id="lbl_PodioT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_PodioT.png">
+        <img id="lbl_PodioRE" class="etiqueta" src="assets/img/parte_1/slide17/lbl_PodioRE.png">
+
+        <img id="lbl_InfoT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_InfoT.png">
+        <img id="lbl_InfoRE" class="etiqueta" src="assets/img/parte_1/slide17/lbl_InfoRE.png">
+
+        <img id="lbl_BajadaTT" class="etiqueta" src="assets/img/parte_1/slide17/reparacion.png">
+        <img id="lbl_BajadaT" class="etiqueta" src="assets/img/parte_1/slide17/lbl_BajadaT.png">
+
+        <img id="lbl_Construccion" class="etiqueta" src="assets/img/parte_1/slide17/construccion_superior.png">
+        <img id="lbl_Edificio" class="etiqueta" src="assets/img/parte_1/slide17/edifi.png">
+
+        <img id="lbl_Cons_no" class="etiqueta" src="assets/img/parte_1/slide17/construccion_no_maciza.png">
+        <img id="lbl_Casita_no" class="etiqueta" src="assets/img/parte_1/slide17/construccion_n_maciza.png">
+
+        <img id="lbl_InstruEdi" class="etiqueta" src="assets/img/parte_1/slide17/instruccion_edificios.png">
+        <img id="lbl_MuroLadrillo" class="elem_info" src="assets/img/parte_1/slide17/muro.png" style="display: block;">
+        <img id="lbl_Muros_Incendio" class="etiqueta" src="assets/img/parte_1/slide17/muros_incendio.png">
+      </div>
+      <img style="position: absolute;bottom: 3%;width: 0.7%;left: 25.05%;"
+        src="assets/img/parte_1/slide17/img_sill_blanc.png">
+      <img style="position: absolute;bottom: 9%;width: 0.7%;left: 87.1%;"
+        src="assets/img/parte_1/slide17/img_sill_blanc.png">
+      <!-- Capa 5 -->
+      <div class="capa_5 scroll">
+        <img id="btn_returnInfo" class="elem_click" src="assets/img/parte_1/slide17/btn_return.png">
+        <img id="bienes_carrusel" class="etiqueta animated" src="assets/img/parte_1/slide17/espectacular.png">
+
+
+        <img id="capa_5__mujer" src="assets/img/parte_1/slide17/toma_agua.png">
+        <img id="capa_5__testo" src="assets/img/parte_1/slide17/globo_text_1.png">
+        <img id="lbl_CaidaIN" class="etiqueta" src="assets/img/parte_1/slide17/lbl_CaidaIN.png">
+        <img id="img_char_6" src="assets/img/parte_1/slide17/toma_agua.png">
+        <img id="lbl_img_77" src="assets/img/parte_1/slide17/tipos_instru.png">
+        <img id="img_char_77" src="assets/img/parte_1/slide17/toma_agua.png">
+
+        <img id="stop_area_2" class="etiqueta" src="assets/img/parte_1/slide17/area_1.png">
+        <!-- <img src="assets/img/parte_1/slide17/boton continuar.png" class="etiqueta btn_stop_area_1" > -->
+        <div id="mod_btn2_taller" class="">
+          <div class="w3-modal-content w3-animate-zoom" style="background-color:transparent;">
+            <div class="w3-display-container">
+              <div class="w3-content w3-display-container" style="max-width: 100%;">
+                <img class="mySlides_taller" src="assets/img/parte_1/slide17/construccion_1.png" style="width:100%">
+                <img class="mySlides_taller" src="assets/img/parte_1/slide17/construccion_2.png" style="width:100%">
+                <button class="w3-display-left prev_t elem_arrow" onclick="taller_plusDivs2(-1)">
+                  <img src="assets/img/parte_1/slide17/izquierda.png">
+                </button>
+                <button class="next_t animated infinite heartBeat elem_arrow" onclick="taller_plusDivs2(1)">
+                  <img src="assets/img/parte_1/slide17/derecha.png">
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p id="instr_btn2_taller" class="w3-round-xlarge">Da clic en la flecha</p>
+
+        <img id="lbl_fuego_text" class="etiqueta" src="assets/img/parte_1/slide17/fueg_tipC.png">
+        <img id="lbl_fuego_mujer" class="etiqueta" src="assets/img/parte_1/slide17/toma_agua.png">
+        <img id="stop_area_3" class="etiqueta btn_stop_area_3 myglow_img da-clic" src="assets/img/parte_1/slide17/area_1.png">
+        <img id="stop_area_4" class="etiqueta btn_stop_area_4 myglow_img " src="assets/img/parte_1/slide17/area_2a.png">
+        <img id="lbl_text_refi" class="etiqueta" src="assets/img/parte_1/slide17/refrigerio.png">
+        <img id="lbl_mujer_refri" class="etiqueta" src="assets/img/parte_1/slide17/toma_agua.png">
+        <img id="btn_infografia_juego" src="assets/img/btn-conocimientos.png" class="etiqueta btn_infografia_juego abs">
+        <img id="btn_infografia_fin" src="assets/img/btn_cont.png" class="etiqueta btn_fin_infografia abs">
+      </div>
+    </div>
+    <img id="btn_Volume" style="cursor: pointer;position: fixed;top: 1%;width: 3.5%;right: 1%;z-index: 60;"
+      src="assets/img/on.png">
+      <img id="locution_btn" class="locution_btn" style="cursor:pointer;position: fixed;top: 1%;width: 3.5%;left: 91.5%;z-index: 60;"
+      src="assets/img/on_l.png">
+    <!--<embed src="assets/aud/silence.mp3" type="audio/mp3" autostart="true" hidden="true">-->
+    <audio id="audBack" controls loop style="display: none;">
+      <source src="assets/aud/joy.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audBack2" controls loop style="display: none;">
+      <source src="assets/aud/pajaros.mp3" type="audio/mp3">
+    </audio>
+    <audio id="audBack3" controls loop style="display: none;">
+      <source src="assets/aud/bus.mp3" type="audio/mp3">
+    </audio>
+  </div>
+  <div id="slide_sini_16" class="slide_sini">
+    <img src="assets/img/parte_1/slide20/fondo.png" style="width:100%;height: 100%;">
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide20/20_1.png" class="elem_info" id="slide14_1">
+    <img src="assets/img/parte_1/slide20/20_2.png" class="elem_info" id="slide14_2">
+  </div>
+  <div id="slide_sini_17" class="slide_sini">
+    <img src="assets/img/parte_1/slide21/fondo.png" style="width:100%;height: 100%;">
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide21/cuadro.jpeg" class="elem_info " id="btn_start_slide16">
+    <img src="assets/img/parte_1/slide21/puerta.png" class="elem_click myglow_img_blue" id="btn_start_slide15">
+  </div>
+  <div id="slide_sini_18" class="slide_sini">
+    <img src="assets/img/parte_1/slide43/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide43/recorr.png" class="elem_info" style="top: 2%;left: 27%;width: 45%">
+    <img src="assets/img/parte_1/slide43/Incendios-basico.gif" class="elem_info" style="bottom: 7%;left: 0%;width: 55%;">
+  </div>
+  <div id="slide_sini_19" class="slide_sini">
+    <img src="assets/img/parte_1/slide44/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide44/Caso.png" class="abs animated caso_end">
+    <img src="assets/img/parte_1/slide44/haz_click.png" class="abs animated click_end">
+    <img src="assets/img/parte_1/slide44/INSIGNIA_.png" class="abs animated inginia_end">
+    <img src="assets/img/parte_1/slide44/sinie.png" class="abs animated sinie_end">
+    <img src="assets/img/parte_1/slide44/mujer.png" class="abs animated mujer_end">
+  </div>
+  <div id="slide_sini_20" class="slide_sini">
+    <img src="assets/img/parte_1/slide45/fondo.png" alt style="width:100%;height: 100%;" />
+    <img src="assets/img/axa_logo.png" alt class="axa_logo elem_info" />
+    <img src="assets/img/parte_1/slide45/demostrado.png" class="abs animated demo_s19">
+    <img src="assets/img/parte_1/slide45/felicidades.png" class="abs animated felicidades_s19">
+    <img src="assets/img/parte_1/slide45/INSIGNIA_.png" class="abs animated insignia_19">
+    <img src="assets/img/parte_1/slide45/mujer.png" class="abs animated mujer_s19">
+    <img src="assets/img/parte_1/slide45/obtuviste.png" class="abs animated obtuv_s19">
+    <img id="btn_Finish" src="assets/img/parte_1/btn_finish.png" class="elem_click">
+  </div>
+
+  <img id="sini_Prev" src="assets/img/icons/icon_prev.png" class="w3-display-left elem_arrow hide" alt style="width:3%;" />
+  <img id="sini_Next" src="assets/img/icons/icon_next.png" class="w3-display-right elem_arrow" alt style="width:3%;" />
+
+
+  
+  <div id="mod_cultOrg" class="w3-modal modal_base modal" style="padding-top: 3%;">
+    <div class="w3-modal-content w3-animate-top" style="background-color:transparent;width: 75%;">
+      <div class="w3-display-container">
+        <img src="assets/img/base_mod_video.png" alt style="width: 100%;" />
+        <video id="vid_cultOrg" controls style="width: 100%;position: absolute;top:0%;left: 0%;">
+          <source src="assets/vid/vid_cultOrg.mp4" type="video/mp4">
+        </video>
+        <img id="cls_cultOrg" class="elem_click w3-display-topright" src="assets/img/icons/close.svg" style="width: 5%;"
+          alt>
+      </div>
+    </div>
+  </div>
+
+  <!--modales slide3 parte 1-->
+  <div id="mod_expertos_1" class="w3-modal modal_expertos modal" style="overflow: hidden; margin-top: 0">
+    <div class="w3-modal-content w3-animate-top" style="background-color:transparent;width: 70%;">
+      <div class="w3-display-container">
+        <img src="assets/img/base_mod_video.png" alt style="width: 100%;" />
+        <div id="carru_slide1_2_1" class="carru_slide1_2">
+          <img src="assets/img/parte_1/slide22y23/mod_01.png" class="elem_info" style="top: 0%;width: 100%;left: 0%"
+            alt>
+        </div>
+        <div id="carru_slide1_2_2" class="carru_slide1_2">
+          <img src="assets/img/parte_1/slide22y23/mod_02.png" class="elem_info" style="top: 0%;width: 100%;left: 0%"
+            alt>
+        </div>
+        <div id="carru_slide1_2_3" class="carru_slide1_2">
+          <img src="assets/img/parte_1/slide22y23/mod_03.png" class="elem_info" style="top: 0%;width: 100%;left: 0%"
+            alt>
+        </div>
+        <div id="carru_slide1_2_4" class="carru_slide1_2">
+          <img src="assets/img/parte_1/slide30/slider_1.png" class="elem_info" style="top: 0%;width: 100%;left: 0%" alt>
+        </div>
+        <div id="carru_slide1_2_5" class="carru_slide1_2">
+          <img src="assets/img/parte_1/slide30/slider_2.png" class="elem_info" style="top: 0%;width: 100%;left: 0%" alt>
+        </div>
+        <div id="carru_slide1_2_6" class="carru_slide1_2">
+          <img src="assets/img/parte_1/slide30/slider_3.png" class="elem_info" style="top: 0%;width: 100%;left: 0%" alt>
+        </div>
+        <div id="carru_slide1_2_7" class="carru_slide1_2">
+          <img src="assets/img/parte_1/slide30/slider_4.png" class="elem_info" style="top: 0%;width: 100%;left: 0%" alt>
+          <img id="btn_sabiasExp" src="assets/img/parte_1/slide30/btn_sabiasK.png"
+            class="w3-display-left elem_click animated infinite pulse" alt="" style="width: 12%;left: 74%;top: 37%;">
+        </div>
+        <img id="slide1_2_Prev" src="assets/img/parte_1/slide30/flecha_prev.png" class="w3-display-left elem_arrow " alt
+          style="width:3%;left: 3%; top: 47%;" />
+        <img id="slide1_2_Next" src="assets/img/parte_1/slide30/flecha_next.png" class="w3-display-right elem_arrow " alt
+          style="width:3%;right: 7%; top: 47%;" />
+        <img id="cls_expertos_1" class="elem_click w3-display-topright cls_slide9"
+          src="assets/img/parte_1/slide30/x.png" style="width: 5%;display: none" alt>
+        <div id="circ_slide1_2_1" class="elem_info circ_slide1_2 w3-circle w3-light-blue"></div>
+        <div id="circ_slide1_2_2" class="elem_info circ_slide1_2 w3-circle w3-white"></div>
+        <div id="circ_slide1_2_3" class="elem_info circ_slide1_2 w3-circle w3-white"></div>
+        <div id="circ_slide1_2_4" class="elem_info circ_slide1_2 w3-circle w3-white"></div>
+        <div id="circ_slide1_2_5" class="elem_info circ_slide1_2 w3-circle w3-white"></div>
+        <div id="circ_slide1_2_6" class="elem_info circ_slide1_2 w3-circle w3-white"></div>
+        <div id="circ_slide1_2_7" class="elem_info circ_slide1_2 w3-circle w3-white"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sabias_expertos_1" class="w3-modal modal_expertos modal" style="overflow: hidden; margin-top: 0">
+    <div class="w3-modal-content w3-animate-top" style="background-color:transparent;width: 70%;">
+      <div class="w3-display-container">
+        <img src="assets/img/parte_1/slide30/slider_5.png" alt style="width: 100%;">
+        <img class="elem_info myglow_img" src="assets/img/parte_1/slide30/foquito.png" alt
+          style="top: 6%;left: 7%;width: 11%;">
+        <img id="cls_sabiasExperto" class="elem_click" src="assets/img/icons/close.svg" alt
+          style="top: 0;right: -7%;width: 5%;">
+      </div>
+    </div>
+  </div>
+  <!--Modales Slide9 -->
+  <div id="mod_casoExperto" class="w3-modal modal_expertos modal" style="overflow: hidden; margin-top: 0">
+    <div class="w3-modal-content w3-animate-top" style="background-color:transparent;width: 70%;">
+      <div class="w3-display-container">
+        <img src="assets/img/base_mod_video.png" alt style="width: 100%;">
+        <iframe type="application/pdf" src="assets/docs/caso-practico.pdf#view=fitH" title="casoExperto"
+          class="elem_info" width="100%" height="100%" style="left: 0;border: none" frameborder="1"></iframe>
+        <img id="cls_casoExperto" class="elem_click" src="assets/img/icons/close.svg" alt style="top: 0;
+          right: -7%;
+          width: 5%;">
+      </div>
+    </div>
+  </div>
+
+  <div id="mod_btn2_taller3" class="w3-modal modal_base modal">
+    <div class="w3-modal-content w3-animate-top" style="background-color:transparent;width: 75%;">
+      <div class="w3-display-container">
+        <img id="lbl_fuego_modal" src="assets/img/parte_1/slide17/area2.png" />
+      </div>
+      <img id="cls_mod7_taller3_btn2" class="elem_click" src="assets/img/parte_1/slide17/x.png">
+    </div>
+  </div>
+
+  <div id="mod_btn2_taller4" class="w3-modal modal_base modal">
+    <div class="w3-modal-content w3-animate-top" style="background-color:transparent;width: 75%;">
+      <div class="w3-display-container">
+        <img id="lbl_fuego_modal" src="assets/img/parte_1/slide17/fuego_maciza.png" />
+      </div>
+      <img id="cls_mod7_taller4_btn2" class="elem_click" src="assets/img/parte_1/slide17/x.png">
+    </div>
+  </div>
+  <!-- Juegos -->
+  <div id="mod1_juego" class="modal_juego modal"></div>
+
+  <audio id="aud_load"><source src="assets/aud/aud_load.mp3" type="audio/mpeg"></audio>
+  <audio id="efct_clic" src="assets/aud/clic.mp3"></audio>
+  <audio id="audGen" class="audGen" loop src="assets/aud/musicback.mp3"></audio>
+  <audio id="efct_next" src="assets/aud/next.mp3"></audio>
+  <audio id="aud_win"><source src="assets/aud/acierto.mp3" type="audio/mpeg"></audio>
+  <audio id="aud_error"><source src="assets/aud/error.mp3" type="audio/mpeg"></audio>
+  <audio id="aud_avion"><source src="assets/aud/avion.mp3" type="audio/mpeg"></audio>
+  <audio id="aud1" class="locuIndex" src="assets/aud/locutar/aud_1.mp3"></audio>
+  <audio id="aud2" class="locuIndex" src="assets/aud/locutar/aud_2.mp3"></audio>
+  <audio id="aud3" class="locuIndex" src="assets/aud/locutar/aud_3.mp3"></audio>
+  <audio id="aud4" class="locuIndex" src="assets/aud/locutar/aud_4.mp3"></audio>
+  <audio id="aud5" class="locuIndex" src="assets/aud/locutar/aud_5.mp3"></audio>
+  <audio id="aud6" class="locuIndex" src="assets/aud/locutar/aud_6.mp3"></audio>
+  <audio id="aud7" class="locuIndex" src="assets/aud/locutar/aud_8.mp3"></audio>
+  <audio id="aud8" class="locuIndex" src="assets/aud/locutar/aud_9.mp3"></audio>
+  <audio id="aud9" class="locuIndex" src="assets/aud/locutar/aud_10.mp3"></audio>
+  <audio id="aud10" class="locuIndex" src="assets/aud/locutar/aud_11.mp3"></audio>
+  <audio id="aud11" class="locuIndex" src="assets/aud/locutar/aud_12.mp3"></audio>
+
+  <audio id="acar1" class="locuIndex" src="assets/aud/locutar/slide_1.mp3"></audio>
+  <audio id="acar2" class="locuIndex" src="assets/aud/locutar/slide_2.mp3"></audio>
+  <audio id="acar3" class="locuIndex" src="assets/aud/locutar/slide_3.mp3"></audio>
+  <audio id="acar4" class="locuIndex" src="assets/aud/locutar/slide_4.mp3"></audio>
+  <audio id="acar5" class="locuIndex" src="assets/aud/locutar/slide_5.mp3"></audio>
+  <audio id="acar6" class="locuIndex" src="assets/aud/locutar/slide_6.mp3"></audio>
+  <audio id="acar7" class="locuIndex" src="assets/aud/locutar/slide_7.mp3"></audio>
+
+  <audio id="sab1" class="locution" src="assets/aud/locutar/sabias_1.mp3"></audio>
+  
+   <audio id="audi1" class="locution" src="assets/aud/locutar/info_1.mp3"></audio>
+   <audio id="audi2" class="locution" src="assets/aud/locutar/info_2.mp3"></audio>
+   <audio id="audi3" class="locution" src="assets/aud/locutar/info_3.mp3"></audio>
+   <audio id="audi4" class="locution" src="assets/aud/locutar/info_4.mp3"></audio>
+   <audio id="audi5" class="locution" src="assets/aud/locutar/info_5.mp3"></audio>
+   <audio id="audi6" class="locution" src="assets/aud/locutar/info_6.mp3"></audio>
+   <audio id="audi7" class="locution" src="assets/aud/locutar/info_7.mp3"></audio>
+   <audio id="audi8" class="locution" src="assets/aud/locutar/info_8.mp3"></audio>
+   <audio id="audi9" class="locution" src="assets/aud/locutar/info_9.mp3"></audio>
+   <audio id="audi10" class="locution" src="assets/aud/locutar/info_10.mp3"></audio>
+
+   <audio id="audi11" class="locution" src="assets/aud/locutar/info_11.mp3"></audio>
+   <audio id="audi12" class="locution" src="assets/aud/locutar/info_12.mp3"></audio>
+   <audio id="audi13" class="locution" src="assets/aud/locutar/info_13.mp3"></audio>
+   <audio id="audi14" class="locution" src="assets/aud/locutar/info_14.mp3"></audio>
+   <audio id="audi15" class="locution" src="assets/aud/locutar/info_15.mp3"></audio>
+   <audio id="audi16" class="locution" src="assets/aud/locutar/info_16.mp3"></audio>
+   <audio id="audi17" class="locution" src="assets/aud/locutar/info_17.mp3"></audio>
+   <audio id="audi18" class="locution" src="assets/aud/locutar/info_18.mp3"></audio>
+   <audio id="audi19" class="locution" src="assets/aud/locutar/info_19.mp3"></audio>
+   <audio id="audi20" class="locution" src="assets/aud/locutar/info_20.mp3"></audio>
+   <audio id="audi21" class="locution" src="assets/aud/locutar/info_21.mp3"></audio>
+   <audio id="audi22" class="locution" src="assets/aud/locutar/info_22.mp3"></audio>
+   <audio id="audi23" class="locution" src="assets/aud/locutar/info_23.mp3"></audio>
+  <div id="precache_index">
+
+  </div>
+  <script src="assets/js/libs/jquery2.2.4.js"></script>
+  <script src="assets/js/libs/jquery.jInvertScroll.js"></script>
+  <script src="assets/js/libs/jquery.animate.js"></script>
+  <script src="assets/js/libs/jquery.includeHTML.js"></script>
+  <script src="assets/js/libs/pageSwitch.min.js"></script>
+  <script src="assets/js/libs/jquery.waitforimages.js"></script>
+  <script src="assets/js/libs/SCORM_API_wrapper.min.js"></script>
+  <script src="assets/js/funciones_base_scorm.js"></script>
+  <script src="assets/js/infografia.js"></script>
+  <script src="assets/js/ctrl_index.js"></script>
+  
+</body>
+
+</html>
